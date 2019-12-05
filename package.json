@@ -1,0 +1,19 @@
+{
+  "name": "ng-chiptan",
+  "version": "0.0.1",
+  "description": "angularjs component to render chiptan flicker code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fundsaccess/ng-chiptan.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fundsaccess/ng-chiptan/issues"
+  },
+  "homepage": "https://github.com/fundsaccess/ng-chiptan#readme"
+}
