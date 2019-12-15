@@ -4,16 +4,31 @@
   "description": "angularjs component to render chiptan flicker code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "publish": "npm publish dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fundsaccess/ng-chiptan.git"
   },
-  "author": "",
+  "author": "fundsaccess AG",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fundsaccess/ng-chiptan/issues"
+  "homepage": "https://fundsaccess.github.io/ng-chiptan/",
+  "keywords": [
+    "angularjs",
+    "flicker",
+    "chiptan",
+    "component"
+  ],
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
-  "homepage": "https://github.com/fundsaccess/ng-chiptan#readme"
+  "dependencies": {
+    "angular": "^1.7.9"
+  }
 }
