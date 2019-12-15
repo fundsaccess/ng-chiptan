@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "serve:build": "lite-server --baseDir=\"docs\"",
+    "build:lib": "webpack --config webpack.lib.js",
     "publish": "npm publish dist"
   },
   "repository": {
@@ -24,6 +26,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
+    "lite-server": "^2.5.4",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
