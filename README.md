@@ -13,12 +13,12 @@ For the Angular 2+ version see https://github.com/fundsaccess/ngx-chiptan
 
 npm:
 ```
-$ npm i ngx-chiptan --save
+$ npm i ng-chiptan --save
 ```
 
 yarn:
 ```shell
-yarn add ngx-chiptan
+yarn add ng-chiptan
 ```
 
 ## Import
