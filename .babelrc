@@ -1,0 +1,27 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        "angularjs-annotate"
+    ],
+    "env": {
+        "production": {
+            "plugins": [
+                "transform-remove-console",
+                "transform-remove-debugger"
+            ]
+        },
+        "develop": {
+            "compact": false,
+            "comments": false
+        }
+    },
+    "comments": false,
+    "compact": true
+}
